@@ -1,107 +1,247 @@
 export const projectsEn = [
     {
-        id:"teamTraveler",
-        name: "Team Traveler",
-        technologies: 'Android Studio, Java, FireBase, MVP, NoSql',
+        id:"audioStream",
+        name: "Audio Stream Site",
+        technologies: 'JavaScript, HTML5, JQuery, JPlayer',
         images: [
             {
-                title:'Trip',
-                src: "assets/images/voyages.webp",
-            },
-            {
-                title:'Trip',
-                src:"assets/images/voyage.webp",
-            },
-            {
-                title:'Housing',
-                src: "assets/images/logements.webp",
+                title:'Audio',
+                src: "assets/images/audio-stream.png",
             },
         ],
-        url: "https://play.google.com/store/apps/details?id=team.traveler.teamtraveler",
-        detail:"The application will allow you to organize group trips easily and quickly. Vote for dates, transport, accommodation or even activities. Thanks to this <a title='Download on Google Play' href='https://play.google.com/store/apps/details?id=team.traveler.teamtraveler'>application</a> no more problems with choices or disagreements.",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/team_traveler',
+        url: '#portfolio',
+        detail:"An internal website for a client for two-way radio listening, included features such as audio playback and audio pausing. Saved around $250,000 by using workstations as radios.",
+        codeSourceUrl:'',
         detailIsDisplayed: false,
     },
     {
-        id:"mautic",
-        name: "Mautic Monitoring",
-        technologies: 'Android Studio, Java, Rx_Java, Retrofit, MVP, Rest',
+        id:"abcmouse",
+        name: "ABC Mouse",
+        technologies: 'ActionScript, Flash, JavaScript, Mobile',
         images: [
             {
-                title:'Marketing campaigns',
-                src:   "assets/images/compagnes.jpg",
+                title:'ABC Mouse',
+                src:   "assets/images/abcmouse.jpg",
             },
-            {
-                title:'Campaign detail',
-                src :"assets/images/compagne-detail.jpg",
-            },
-            {
-                title:"Email performance",
-                src: "assets/images/email-detail.jpg",
-            },
-            {
-                title:"Performance of an asset",
-                src: "assets/images/asset-detail.jpg" 
-            },
-            
         ],
-        url:'#portfolio',
-        detail:"<p>Mautic is an open source automatic marketing tool</p> <p>The application allows you to have dynamic and detailed reports, to analyze individual campaign trends.<br> A visually user-friendly dashboard gives you a unique quick view of the performance of: your digital campaigns, assets, and forms. </p> <p>The application is available in French and English.</p>",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/mautic_monitoring',
-        detailIsDisplayed: false,
-    },
-    {
-        id:"pokedex",
-        name: "Pokedex",
-        technologies: 'Java, J2EE, SpringBoot, TDD, MySQL, BootStrap, Services, Deploiment',
-        images: [
-            {
-                title:'Pokedex',
-                src:   "assets/images/pokedex.png",
-            },
-            {
-                title:'Trainers',
-                src :"assets/images/trainers.png",
-            },
-            {
-                title:"Profile",
-                src: "assets/images/profile-trainer.png",
-            },            
-        ],
-        url:'#portfolio',
-        detail:"<p>Display of the details of pokemon and their trainers.</p> <p>The two micro-service application contains: pokemon management and trainer management, which exposes a REST/JSON communication channel.<br>The 3rd WEB-UI micro-service connects to both micro-services.</p>",
-        codeSourceUrl:'https://github.com/ifi-2019/trainer-ui-zinedineBenkhider',
+        url:'',
+        detail:"<p>Led and mentored a team of programmers. Developed tools that not only save time but money. Started a weekly boardgame club.</p>",
+        codeSourceUrl:'',
         detailIsDisplayed: false,
     },
     {
         id:"portfolio",
         name: "Portfolio",
-        technologies: 'Angular11, Html5, CSS, TypeScript, BootStrap',
+        technologies: 'Angular11, TypeScript, BootStrap, Apache2, Raspberry Pi',
         images: [
             {
                 title:'Portfolio',
-                src:   "assets/images/portfolio.png",
+                src:   "assets/images/raspberry-pi.jpg",
             },
         ],
-        url:'https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640',
-        detail:"<p> CV in the form of a responsive WEB site that I put in open-source on GitHub accompanied by a publication of a <a title='See the article' href='https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640' target='_blank'>article</a> on medium. </p>",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/portfolio',
+        url:'',
+        detail:"<p>Used a Raspberry Pi and setup an apache2 web server to host my CV.</p>",
+        codeSourceUrl:'',
         detailIsDisplayed: false,
     },
     {
-        id:"riddle",
-        name: "Transfer Riddle",
-        technologies: 'Java, J2EE(Web Services), JavaScript, Html5, CSS, BootStrap',
+        id:"tagdesigner",
+        name: "Tag Designer",
+        technologies: 'ActionScript, Flash, REST',
         images: [
             {
-                title:'Riddle',
-                src:   "assets/images/riddle.png",
+                title:'Tag Designer Front',
+                src:   "assets/images/tagdesigner-front.jpg",
+            },{
+                title:'Tag Designer Back',
+                src:   "assets/images/tagdesigner-back.jpg",
             },
         ],
-        url:'https://transfer-riddle-solver.herokuapp.com/index.html',
-        detail:"Display of the steps for solving the decanting puzzle. Given two empty tanks of capacity X and Y, how to obtain precisely T liters in one of the two tanks (T being an integer). You can fill or empty a tank , and transfer the contents from one to the other, until the source is empty or the destination full.",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/transfer_riddle_client',
+        url:'',
+        detail:"<p>A greenfield application created using Adobe Flash to allow users to create their own sales tags.</p>",
+        codeSourceUrl:'https://github.com/agent5905/Flash-Projects/tree/main/Pre-setup%20Tag%20Designer',
+        detailIsDisplayed: false,
+    },
+    {
+        id:"b3-calc",
+        name: "BL3 Calculator",
+        technologies: 'JavaScript, Git',
+        images: [
+            {
+                title:'Watch',
+                src:   "assets/images/b3-calc.png",
+            }
+        ],
+        url:'',
+        detail:"<p>My passion for games and problem solving lead me to find and fix a bug in this project.</p>",
+        codeSourceUrl:'https://github.com/agent5905/Borderlands-Weapon-DPS-Calculator-JavaScript',
+        detailIsDisplayed: false,
+    },
+    {
+        id:"survivor",
+        name: "Survivor Game",
+        technologies: 'Unity3D, C#, Photoshop',
+        images: [
+            {
+                title:'Survivor 1',
+                src:   "assets/images/survivor-1.png",
+            },
+            {
+                title:'Survivor 2',
+                src:   "assets/images/survivor-3.png",
+            },
+            {
+                title:'Survivor 3',
+                src:   "assets/images/survivor-3.png",
+            }
+        ],
+        url:'',
+        detail:"<p>A tower-defense prototype, experimenting with AI behavior and game mechanics.</p>",
+        codeSourceUrl:'https://github.com/agent5905/Unity-Projects/tree/main/Artifact',
+        detailIsDisplayed: false,
+    },
+    {
+        id:"ags",
+        name: "New World - Fix",
+        technologies: 'Python, Reverse Engineering',
+        images: [
+            {
+                title:'AGS',
+                src:   "assets/images/ags.png",
+            }
+        ],
+        url:'',
+        detail:"<p>Another example of my passion for games. I reverse engineered the json item system and then created a python script that found the broken items. Which I then posted on thier forum to fix.</p>",
+        codeSourceUrl:'https://github.com/agent5905/ags',
+        detailIsDisplayed: false,
+    },
+    {
+        id:"catan-stats",
+        name: "Catan Stats",
+        technologies: 'Swift, iOS',
+        images: [
+            {
+                title:'Catan Stats',
+                src:   "assets/images/catan-stats.png",
+            },
+        ],
+        url:'',
+        detail:"<p>An iOS app I created to track the dice rolls for the boardgame Catan.</p>",
+        codeSourceUrl:'',
+        detailIsDisplayed: false,
+    },
+    {
+        id:"instawinner",
+        name: "Insta Winner",
+        technologies: 'Swift, iOS, Twitter API',
+        images: [
+            {
+                title:'Insta Winner',
+                src:   "assets/images/instawinner-1.png",
+            },{
+                title:'Insta Winner',
+                src:   "assets/images/instawinner-2.png",
+            },{
+                title:'Insta Winner',
+                src:   "assets/images/instawinner-3.png",
+            },{
+                title:'Insta Winner',
+                src:   "assets/images/instawinner-4.png",
+            },
+        ],
+        url:'',
+        detail:"<p>An iOS app I created so that a user can type in a hashtag and have the app select a winner. Included options to limit the enteries per day as well as select multiple winners.</p>",
+        codeSourceUrl:'',
+        detailIsDisplayed: false,
+    },
+    {
+        id:"stablediffusion",
+        name: "Stable Diffusion",
+        technologies: 'Stable Diffusion, Photoshop, Python',
+        images: [
+            {
+                title:'Stable Diffusion',
+                src:   "assets/images/sd-1.png",
+            },{
+                title:'Stable Diffusion',
+                src:   "assets/images/sd-2.jpg",
+            },{
+                title:'Stable Diffusion',
+                src:   "assets/images/sd-3.jpg",
+            },
+        ],
+        url:'',
+        detail:"<p>Setup Stable Diffusion to run locally on my home computer where I then learned how to use it to create art for friends and family.</p>",
+        codeSourceUrl:'',
+        detailIsDisplayed: false,
+    },
+    {
+        id:"pebble",
+        name: "Pebble Watch",
+        technologies: 'Pebble, C, Photoshop',
+        images: [
+            {
+                title:'Watch',
+                src:   "assets/images/watch.jpg",
+            }
+        ],
+        url:'',
+        detail:"<p>Created a watch face for the Pebble Watch based Blizzard game Hearthstone that had 100 downloads.</p>",
+        codeSourceUrl:'',
+        detailIsDisplayed: false,
+    },
+    {
+        id:"arduino",
+        name: "Arduino Timer",
+        technologies: 'Arduino, C++',
+        images: [
+            {
+                title:'Timer 1',
+                src:   "assets/images/timer-1.jpg",
+            },
+            {
+                title:'Timer 2',
+                src:   "assets/images/timer-2.jpg",
+            },
+            {
+                title:'Timer 3',
+                src:   "assets/images/timer-3.jpg",
+            },
+            {
+                title:'Timer 4',
+                src:   "assets/images/timer-4.jpg",
+            },
+        ],
+        url:'',
+        detail:"<p>Reverse engineered a 7-segement display to communicate with a arduino which I then created a countdown timer.</p>",
+        codeSourceUrl:'https://github.com/agent5905/Arduino-Projects/tree/main/Countdown_Timer_4_1',
+        detailIsDisplayed: false,
+    },
+    {
+        id:"countdown",
+        name: "Countdown",
+        technologies: 'ActionScript, Flash',
+        images: [
+            {
+                title:'Countdown 1',
+                src:   "assets/images/countdown-1.png",
+            },
+            {
+                title:'Countdown 2',
+                src:   "assets/images/countdown-2.png",
+            },
+            {
+                title:'Countdown 3',
+                src:   "assets/images/countdown-3.png",
+            },
+            {
+                title:'Countdown 4',
+                src:   "assets/images/countdown-4.png",
+            },
+        ],
+        url:'',
+        detail:"<p>One of my first personal projects. A countdown timer to events that I made for a Best Buy store.</p>",
+        codeSourceUrl:'https://github.com/agent5905/Flash-Projects/tree/main/Pre-setup%20Tag%20Designer',
         detailIsDisplayed: false,
     },
 ];
-

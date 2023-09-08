@@ -46,15 +46,23 @@
 }
 
 .excellent{
-  width: 90%;
+  width: 100%;
 }
 
 .very-good{
-  width: 80%;
+  width: 90%;
 }
 
 .good{
+  width: 80%;
+}
+
+.some-what-good{
   width: 70%;
+}
+
+.above-average{
+  width: 60%;
 }
 
 .average{

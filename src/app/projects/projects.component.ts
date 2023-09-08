@@ -31,12 +31,19 @@ export class ProjectsComponent implements OnInit {
   }
 
   ngAfterViewInit(){
-    console.log("after view init");
+    
     this.onMouse("portfolio-link", "portfolio-img");
-    this.onMouse("teamTraveler-link", "teamTraveler-img");
-    this.onMouse("mautic-link", "mautic-img");
-    this.onMouse("pokedex-link", "pokedex-img");
-    this.onMouse("riddle-link", "riddle-img");
+    this.onMouse("audioStream-link", "audioStream-img");
+    this.onMouse("tagdesigner-link", "tagdesigner-img");
+    this.onMouse("abcmouse-link", "abcmouse-img");
+    this.onMouse("catan-stats-link", "catan-stats-img");
+    this.onMouse("instawinner-link", "instawinner-img");
+    this.onMouse("stablediffusion-link", "stablediffusion-img");
+    this.onMouse("pebble-link", "pebble-img");
+    this.onMouse("survivor-link", "survivor-img");
+    this.onMouse("arduino-link", "arduino-img");
+    this.onMouse("countdown-link", "countdown-img");
+    this.onMouse("b3-calc-link", "b3-calc-img");
     this.venobox = $('.venobox');
     this.venobox.venobox();
   }
@@ -48,7 +55,6 @@ export class ProjectsComponent implements OnInit {
 
   onMouse(idLink: String, idImage: String) {
     $('#' + idLink).on("mouseenter", function () {
-      console.log('on mouseenter');
       $('#' + idImage).css("opacity", "0.3");
       $('#' + idLink).css("opacity", "1");
     }).on('mouseleave', function () {

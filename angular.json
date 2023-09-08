@@ -34,6 +34,7 @@
               "src/styles.css"
              
             ],
+            "outputHashing": "all",
             "scripts": []
           },
           "configurations": {
@@ -48,6 +49,7 @@
               "outputHashing": "all",
               "sourceMap": false,
               "namedChunks": false,
+              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
